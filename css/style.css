@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR","Do Hyeon", "Kanit", sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.info {
+    background-color: #fdcb6e;
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+
+.info>a {
+    text-decoration: none;
+    color: black;
+}
+
+.info>a:hover {
+    color: #e17055;
+}
+
+.info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Do Hyeon";
+}
+
+
+/* 메뉴 리스트 설정*/
+
+.nav>li {
+    position: relative;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+    color: #e17055;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 3px;
+    display: none;
+    position: absolute;
+    white-space: nowrap;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    z-index: 10;
+}
+
+.nav>li:hover ul{
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.nav-list:hover {
+    text-decoration: underline;
+}
+
+
+.nav ul a, .nav ul>li {
+    padding-bottom: 3px;
+
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav ul a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+.nav ul a::before {
+    content: "●";
+    font-size: 5px;
+    padding-right: 5px;
+    padding-left: 3px;
+
+}
+
+
+.images {
+    margin: 20px auto;
+    width: 600px;
+    height: 400px;
+}
+
+.main-bg {
+    padding: 10px;
+}
+
+.memberLink {
+    border-top: 1px solid #ccc;
+    background-color: white;
+    padding: 0 3px;
+}
+
+.memberLink>a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.memberLink>a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* footer */
+.under-line {
+    padding: 10px;
+    background-color: #ccc;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.guide ul {
+    padding: 0;
+}
+.guide li{
+    display: inline-block;
+}
+
+.guide a{
+    text-decoration: none;
+    color: gray;
+}
+
+.guide a::after {
+    content: "|";
+    padding: 20px;
+}
+
+.first-guide::before {
+    content: "|";
+    padding-right: 20px;
+}
+
+.addr {
+    height: 30px;
+    font-style: normal;
+    margin-bottom: 5px; /* address와 copyright 사이 띄우기*/
+    font-size: 15px;
+}
+
+.addr>p {
+    display: inline-block;
+}
+
+.addr>p::after {
+    content: "|";
+    padding: 6px;
+}
+
+.addr>p:last-child::after {
+    content: "";
+}

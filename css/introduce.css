@@ -1,0 +1,67 @@
+.main-ham>h1 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.hamtroduce {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 10px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.hamtroduce h2 {
+    font-size: 18px;
+    color: #CE723D;
+    border-bottom: 1px solid #CE723D;
+    padding-bottom: 10px;
+}
+
+.hamtroduce h3 {
+    padding: 10px;
+    border-top: 3px dashed #E19C6F;
+    border-bottom: 3px dashed #E19C6F;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hamtroduce h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hams {
+    overflow: hidden;
+}
+
+.hams p {
+    padding: 20px;
+}
+
+.hams img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.hams ul {
+    width: 600px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 5px;
+    display: inline-block;
+    margin: 0;
+}
+
+.hams li::marker {
+    color: #CE723D;
+}
+
+.siri-ham ul{
+    margin-top: 40px;
+}
+
+
+
+

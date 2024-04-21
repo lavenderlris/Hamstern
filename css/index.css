@@ -1,0 +1,221 @@
+/* 화면상단 공지사항 */
+.notice-bg {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px 10px;
+    background-color: #ffeaa7;
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.notice>a {
+    width: 360px;
+    text-decoration: none;
+    color: gray;
+    flex-grow: 1;
+}
+
+.notice>strong {
+    color: #FFBA85;
+    flex-grow: 1;
+}
+
+.notice a:hover {
+    text-decoration: underline;
+}
+
+.notice>time {
+    color: #CE723D;
+    text-align: right;
+    flex-grow: 6;
+}
+
+
+
+/* 캐러셀 설정 */
+
+.carousel {
+    height: 400px;
+    width: 700px;
+    margin: 20px auto 45px;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+
+
+/* 페이지 메인부분 */
+.content-line {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px ;
+    justify-content: center;
+}
+
+.free-con>ul,.photos>ul {
+    padding: 10px 10px 0 10px;
+} 
+
+/* 업데이트 공지 */
+.updateFix {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    overflow: hidden;
+    border: 10px solid white;
+}
+
+.updateFix ul {
+    padding: 0;
+}
+
+.updateFix>ul>li {
+    list-style: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding-left: 10px;
+}
+
+.updateFix a {
+    text-decoration: none;
+    color: #333;
+}
+
+.updateFix time {
+    color: #333;
+    float: right;
+}
+
+/* 공지사항-자유게시판 공통부분 */
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+
+/* 자유게시판 */
+.free-con {
+    flex-shrink: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #ffeaa7;
+    border: 10px solid #ffeaa7;
+    overflow: hidden;
+    border-radius: 0 30px 0 30px;
+    position: relative;
+}
+
+.free-con>h2,  .photos>h2, .updateFix>h2{
+    border-bottom: 1px solid ;
+    color: #e17055;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+.free-con>ul>li {
+    list-style: none; 
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.free-con>ul a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+}
+
+.free-con a:hover {
+    text-decoration: underline;
+}
+
+.free-con time {
+    float: right;
+    color: #CE723D;
+}
+
+/* 반려햄 사진*/
+
+.photos {
+    flex-shrink: 0;
+    width: 50%;
+    background-color: #ffeaa7;
+    border: 10px solid #ffeaa7;
+    border-radius: 30px 0 30px 0;
+    position: relative;
+}
+
+.photos>ul{
+    list-style: none;
+}
+
+.pic-info {
+    margin: 0;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+.pic-info li {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+
+
+.pic-info a{
+    text-decoration: none;
+    color: #CE723D;
+    font-size: 14px;
+}
+
+.pic-info a:hover {
+    text-decoration: underline;
+    color: #CE723D;
+}
+
+.pic-info time {
+    font-size: 13px;
+    color: #444;
+}
+
+.hampics {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.pic-title { 
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.view-more{
+    color: #666;
+    text-decoration: none;
+    padding: 2px;
+    position: absolute;
+    top: -4px;
+    right: 9px;
+    font-size: 0.9em;
+}

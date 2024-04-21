@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href=""> <!--주소창 아이콘 넣을부분-->
+    <title>Hamstern</title>
+</head>
+<body>
+    <!-- wrapper영역 시작 -->
+    <div id="wrapper">
+        <!-- header 영역시작 -->
+        <header class="info">
+            <a href="index.html"> 
+                <h1>Hamstern</h1>
+            </a>
+            <!-- 네비게이션 바 -->
+            <ul class="nav">
+                <li><a class="nav-list" href="#">홈페이지 소개</a></li>
+                <li>
+                    <a class="nav-list" href="#">홈페이지 정책</a>
+                    <ul class="polity">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">업데이트-오류수정사항</a></li>
+                        <li><a href="#">페이지 규정</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-list" href="introduceHam.html">햄스터 종 소개</a></li>
+                <li><a class="nav-list" href="#">햄스터 용품 사이트</a></li>
+                <li>
+                    <a class="nav-list" href="#">햄집사 필수 정보</a>
+                    <ul class="imports">
+                        <li><a href="#">햄스터 생활환경</a></li>
+                        <li><a href="#">햄스터 특징정보</a></li>
+                        <li><a href="#">햄스터 먹이</a></li>
+                        <li><a href="#">햄스터에 대해 잘못알려진 정보</a></li>
+                    </ul>
+                </li> 
+                <li>
+                    <a class="nav-list" href="#">게시판</a>
+                    <ul class="free">
+                        <li><a href="#">자주묻는 질문</a></li>
+                        <li><a href="#">질문과 답변</a></li>
+                        <li><a href="#">자유게시판</a></li>
+                        <li><a href="#">반려햄 사진</a></li>
+                        <li><a href="#">반려햄 영상</a></li>
+                        <li><a href="#">용품 무료나눔</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-list" href="#">소동물 진료가능병원</a>
+                    <ul class="hospital">
+                        <li><a href="#">병원 리스트</a></li>
+                        <li><a href="#">병원 후기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <!-- header 영역종료 -->
+
+        <main class="main-bg">
+            <!-- 화면상단 공지사항 부분 -->
+            <section class="notice-bg">
+                <h2 class="hidden">화면 공지사항</h2>
+                <span class="notice">
+                    <strong>공지</strong>
+                    <a href="#">[페이지 규정] 사이트 이용 시 지켜야할 필수사항</a>
+                    <time datetime="2024-04-09">2024.04.09</time>
+                </span>
+                <span class="notice">
+                    <strong>공지</strong>
+                    <a href="#">[업데이트, 오류수정사항]2024.04.09 오류수정사항</a>
+                    <time datetime="2024-04-09">2024.04.09</time>
+                </span>
+            </section>
+
+
+            <!-- 메인 배너 -->
+            <!-- 캐러셀 -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!-- 캐러셀 이미지 -->
+                <div class="carousel-inner">
+                  <div class="carousel-item  active">
+                    <img src="images/hamster-3528439_960_720.jpg" class="d-block w-100" alt="이미지1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/hamster-7178657_1280.jpg" class="d-block w-100" alt="이미지2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/goldhamster-943374_1280.jpg" class="d-block w-100" alt="이미지3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+            <section class="content-line">
+                <div class="left-content">
+                    <!-- 업데이트-오류수정사항 -->
+                    <section class="updateFix">
+                        <h2>업데이트-오류수정사항</h2>
+                        <ul>
+                            <li>
+                                <a href="#">2024.04.09 오류수정사항</a>
+                                <time datetime="2024-04-09">2024.04.09</time>
+                            </li>
+                            <li>
+                                <a href="#">2024년 4월 업데이트</a>
+                                <time datetime="2024-04-01">2024.04.01</time>
+                            </li>
+                            <li>
+                                <a href="#">2024.03.19 오류수정사항</a>
+                                <time datetime="2024-03-19">2024.03.19</time>
+                            </li>
+                            <li>
+                                <a href="#">2024년 3월 업데이트</a>
+                                <time datetime="2024-03-01">2024.03.01</time>
+                            </li>
+                            <li>
+                                <a href="#">2024.02.27 오류수정사항</a>
+                                <time datetime="2024-02-27">2024.02.27</time>
+                            </li>
+                            <li>
+                                <a href="#">2024.02.15 오류수정사항</a>
+                                <time datetime="2024-02-15">2024.02.15</time>
+                            </li>
+                            <li>
+                                <a href="#">2024년 2월 업데이트</a>
+                                <time datetime="2024-02-01">2024.02.01</time>
+                            </li>
+                            <li>
+                                <a href="#">2024년 1월 업데이트</a>
+                                <time datetime="2024-01-01">2024.01.01</time>
+                            </li>
+                        </ul>
+                        <a href="#" class="view-more">더보기 &gt;</a>
+                    </section>
+                    <!-- 자유게시판 -->
+                    <section class="free-con">
+                        <h2>자유게시판</h2>
+                        <ul>
+                            <li>
+                                <a href="#">안녕하세요!</a>
+                                <time datetime="2024-04-15">2024.04.15</time>
+                            </li>
+                            <li>
+                                <a href="#">오늘 비오네요 ㅠㅠ</a>
+                                <time datetime="2024-04-15">2024.04.14</time>
+                            </li>
+                            <li>
+                                <a href="#">아기 햄스터 이유식 추천</a>
+                                <time datetime="2024-04-15">2024.04.14</time>
+                            </li>
+                            <li>
+                                <a href="#">햄스터 옷 만들어봤어요</a>
+                                <time datetime="2024-04-15">2024.04.14</time>
+                            </li>
+                            <li>
+                                <a href="#">점메추</a>
+                                <time datetime="2024-04-15">2024.04.13</time>
+                            </li>
+                            <li>
+                                <a href="#">햄모닝 입니다~</a>
+                                <time datetime="2024-04-15">2024.04.13</time>
+                            </li>
+                            <li>
+                                <a href="#">잘부탁드려요</a>
+                                <time datetime="2024-04-15">2024.04.12</time>
+                            </li>
+                            <li>
+                                <a href="#">우리집 뚠뚠이 포카만들어봤어요</a>
+                                <time datetime="2024-04-15">2024.04.12</time>
+                            </li>
+                            <li>
+                                <a href="#">햄스터 생일케이크</a>
+                                <time datetime="2024-04-15">2024.04.12</time>
+                            </li>
+                            <li>
+                                <a href="#">새로운 집 장만</a>
+                                <time datetime="2024-04-15">2024.04.11</time>
+                            </li>
+                            <li>
+                                <a href="#">영양제 추천</a>
+                                <time datetime="2024-04-15">2024.04.11</time>
+                            </li>
+                            <li>
+                                <a href="#">미세먼지가 너무 많네요 ㅠㅠ</a>
+                                <time datetime="2024-04-15">2024.04.10</time>
+                            </li>
+                            <li>
+                                <a href="#">햄스터 수제간식</a>
+                                <time datetime="2024-04-15">2024.04.10</time>
+                            </li>
+                            <li>
+                                <a href="#">햄스터가 자꾸 벽을타요</a>
+                                <time datetime="2024-04-15">2024.04.10</time>
+                            </li>
+                            <li>
+                                <a href="#">햄스터모양 쿠키</a>
+                                <time datetime="2024-04-15">2024.04.09</time>
+                            </li>
+                        </ul>
+                        <a href="#" class="view-more">더보기 &gt;</a>
+                    </section>
+                </div>
+                <!-- 반려햄 사진 right 흰배경 동글-->
+                <section class="photos">
+                    <h2>반려햄 사진</h2>
+                    <ul class="pic-info">
+                        <li>
+                            <a href="#">
+                                <img src="images/pic1.jpg" alt="햄스터사진1" class="hampics">
+                                <h3 class="pic-title">편식쟁이 햄식이... 그치만 귀여워서 봐주게된다 ㅠㅠㅠ</h3>
+                            </a>
+                            <a href="#">햄식이</a>
+                            <time datetime="2024-04-17">24.04.17</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic2.jpg" alt="햄스터사진2" class="hampics">
+                                <h3 class="pic-title">은신처 새로 장만해줬는데 좋아하네요!</h3>
+                            </a>
+                            <a href="#">햄밍밍</a>
+                            <time datetime="2024-04-14">24.04.14</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic3.jpg" alt="햄스터사진3" class="hampics">
+                                <h3 class="pic-title">간식을 내놓으라는 엄청난 눈빛</h3>
+                            </a>
+                            <a href="#">햄식이</a>
+                            <time datetime="2024-04-11">24.04.11</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic4.jpg" alt="햄스터사진4" class="hampics">
+                                <h3 class="pic-title">나오다가 눈이마주쳐버렸다..!</h3>
+                            </a>
+                            <a href="#">햄밍밍</a>
+                            <time datetime="2024-04-08">24.04.08</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic5.jpg" alt="햄스터사진5" class="hampics">
+                                <h3 class="pic-title">신상 배딩에서 뒹굴뒹굴</h3>
+                            </a>
+                            <a href="#">파이리</a>
+                            <time datetime="2024-04-07">24.04.07</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic6.jpg" alt="햄스터사진6" class="hampics">
+                                <h3 class="pic-title">햄스터 딸기먹방</h3>
+                            </a>
+                            <a href="#">햄에그</a>
+                            <time datetime="2024-04-07">24.04.07</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic7.jpg" alt="햄스터사진7" class="hampics">
+                                <h3 class="pic-title">해씨하나만 주시겠습니까?</h3>
+                            </a>
+                            <a href="#">초코하나</a>
+                            <time datetime="2024-04-04">24.04.04</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic8.jpg" alt="햄스터사진8" class="hampics">
+                                <h3 class="pic-title">왜 저 떠봐요?</h3>
+                            </a>
+                            <a href="#">토리</a>
+                            <time datetime="2024-04-01">24.04.01</time>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/pic9.jpg" alt="햄스터사진9" class="hampics">
+                                <h3 class="pic-title">모래목욕 준비하느라 잠깐 뒀는데 너무귀여워서..ㅎ</h3>
+                            </a>
+                            <a href="#">해피버블티</a>
+                            <time datetime="2024-03-30">24.03.30</time>
+                        </li>
+                    </ul>
+                    <a href="#" class="view-more">더보기 &gt;</a>
+                </section>
+            </section>
+
+        </main>
+        <footer class="under-line">
+            <section class="guide">
+                <ul>
+                    <li><a href="#" class="first-guide">페이지 소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">페이지 정책</a></li>
+                </ul>
+            </section>
+            <address class="addr">
+                <p>오류, 수정사항제보 (email): hamstern998@gmail.com</p>
+                <p>&copy; 2024. sin All rights reserved.</p>
+            </address>
+        </footer>
+    </div>
+    <!-- wrapper영역 종료 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
